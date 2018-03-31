@@ -1,0 +1,78 @@
+/*Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)*/
+
+
+@media (max-width:575px)
+{
+    .brand{
+        min-height:80px;
+    }
+    .global-nav{
+        margin-top: 0px;
+        min-height:80px;
+    }
+    .tools{
+        min-height: 80px;
+        margin-top: 0px;
+    }
+    .hero_common_style{
+    background-color: lightblue;
+    min-height: 100px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+    .hero{
+    min-height:150px;
+    margin-top:20px;
+}
+    .add{
+    min-height:130px;
+    background-color: darkblue;
+    
+    }
+    .article1{
+        min-height:150px;
+    }
+    .content{
+    min-height:300px;
+    margin-top:20px;
+}
+.content_common_style{
+    background-color: lightblue;
+    min-height: 130px;
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width:576px) and (max-width:991px) { 
+    .add{
+    min-height:250px;
+    background-color: darkblue;
+    margin-top:39px;
+    }
+    .article1{
+        min-height:249px;
+    }
+    .sidebar{
+    min-height:100px;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    padding:0 15px;
+}
+    .side_bar_ft{
+    background-color: lightblue;
+    min-height: 100px;
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
